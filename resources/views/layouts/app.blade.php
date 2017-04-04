@@ -39,6 +39,10 @@
                         {{ config('app.name', 'Laravel') }}
                     </a>
                 </div>
+                 <a class="navbar-brand" href="{{ url('/frontpage') }}">
+                        {{ config('app.name', 'HOME') }}
+                    </a>
+                </div>
 
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">
                     <!-- Left Side Of Navbar -->
