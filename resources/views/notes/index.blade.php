@@ -17,6 +17,11 @@
                     <!-- <a class="btn btn-primary" href="{{route('notes.createNote',$ipcr->id)}}" role="button">
                         New Note +
                     </a> -->    
+                    
+                               <a class="btn btn-sm btn-info pull-xs-left" href="/ipcr">
+                                        BACK
+                                    </a>
+                               
                 </div>
                 <div class="clearfix">
                 </div>
