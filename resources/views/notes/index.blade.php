@@ -10,8 +10,8 @@
                 <div class="panel-body">
 <!-- Main component for call to action -->
             <div class="container">
-                <h1 class="pull-xs-left">
-                    <a class="btn btn-sm btn-info pull-xs-left" href="/ipcr">
+                <h1 class="pull-xs-right">
+                    <a class="btn btn-sm btn-info pull-xs-right" href="/ipcr">
                                         BACK
                                     </a>
                 </h1>
