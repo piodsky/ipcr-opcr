@@ -11,16 +11,16 @@
 <!-- Main component for call to action -->
             <div class="container">
                 <h1 class="pull-xs-left">
-                    
+                    <a class="btn btn-sm btn-info pull-xs-left" href="/ipcr">
+                                        BACK
+                                    </a>
                 </h1>
                 <div class="pull-xs-right">
                     <!-- <a class="btn btn-primary" href="{{route('notes.createNote',$ipcr->id)}}" role="button">
                         New Note +
                     </a> -->    
                     
-                               <a class="btn btn-sm btn-info pull-xs-left" href="/ipcr">
-                                        BACK
-                                    </a>
+                               
                                
                 </div>
                 <div class="clearfix">
