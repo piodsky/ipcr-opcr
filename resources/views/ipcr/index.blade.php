@@ -34,13 +34,13 @@
                 <div class="col-sm-6 col-md-3">
                     <div class="card">
                         <div class="card-block">
-                            <a href="/ipcr/{{$ipcr->id}}">
+                            <a href="{{route('notes.createNote',$ipcr->id)}}">
                                 <h4 class="card-title">
                                     {{$ipcr->name}}
                                 </h4>
                             </a>
                         </div>
-                        <a href="{{route('notes.createNote',$ipcr->id)}}">
+                        <a href="/ipcr/{{$ipcr->id}}">
                             <img alt="Responsive image" class="img-fluid" src="dist/img/file.jpg"/>
                         </a>
                         <div class="card-block">
