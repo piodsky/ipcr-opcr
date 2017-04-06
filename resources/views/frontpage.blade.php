@@ -20,13 +20,29 @@
                 <a class="btn btn-lg btn-primary" href="/home" role="button">
                  Create
                 </a>
+                <img src="dist/img/bsu.jpg" alt="bsu" height="242" width="500 class="bsu1 style="float:right;margin-right: 80px;">
             </p>
+            <h3> About IPCROPCR </h3>
 
- <img src="dist/img/bsu.jpg" alt="bsu" height="242" width="500 class="bsu1 style="float:right;margin-right: 80px;">
+            <p> IPCROPCR is an automated evaluation system. </p>
+            </p> IPCROPCR is intended to use for Bukidnon Statue University Only</p>
+            </p> IPCROPCR is evaluation process which we automated it for faster  and reliable evaluation</p>
+ <p> IPCROPCR is an automated evaluation system. </p>
+            </p> IPCROPCR is intended to use for Bukidnon Statue University Only</p>
+            </p> IPCROPCR is evaluation process which we automated it for faster  and reliable evaluation</p>
+     <p> IPCROPCR is an automated evaluation system. </p>
+            </p> IPCROPCR is intended to use for Bukidnon Statue University Only</p>
+            </p> IPCROPCR is evaluation process which we automated it for faster  and reliable evaluation</p>
+ <p> IPCROPCR is an automated evaluation system. </p>
+            </p> IPCROPCR is intended to use for Bukidnon Statue University Only</p>
+            </p> IPCROPCR is evaluation process which we automated it for faster  and reliable evaluation</p>
+
+
         </div>
+        
         </div>
     
-        
+            
     </div>
 </div>
        

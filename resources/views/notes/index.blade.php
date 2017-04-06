@@ -5,15 +5,17 @@
     <div class="row">
         <div class="col-md-12 col-md-offset-0">
             <div class="panel panel-default">
-                <div class="panel-heading"><center>INDIVIDUAL PERFORMANCE COMMITMENT AND REVIEW</center></div>
+                <div class="panel-heading"><center>INDIVIDUAL PERFORMANCE COMMITMENT AND REVIEW</center> </div>
 
                 <div class="panel-body">
+
+                 <a class="btn btn-sm btn-info pull-xs-right" href="/ipcr">
+                                        BACK
+                                    </a>
 <!-- Main component for call to action -->
             <div class="container">
                 <h1 class="pull-xs-right">
-                    <a class="btn btn-sm btn-info pull-xs-right" href="/ipcr">
-                                        BACK
-                                    </a>
+                   
                 </h1>
                 <div class="pull-xs-right">
                     <!-- <a class="btn btn-primary" href="{{route('notes.createNote',$ipcr->id)}}" role="button">
