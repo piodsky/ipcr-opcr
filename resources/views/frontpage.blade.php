@@ -7,7 +7,7 @@
     <div class="row">
         <div class="col-md-12 col-md-offset-0">
             <div class="panel panel-default">
-                <div class="panel-heading">Dashboard</div>
+                <div class="panel-heading"><img src="dist/img/a.png" alt="bsu" height="150" width="1100 class="bsu1></div>
 
                 <div class="panel-body">
 
@@ -20,7 +20,7 @@
                 <a class="btn btn-lg btn-primary" href="/home" role="button">
                  Create
                 </a>
-                <img src="dist/img/bsu.jpg" alt="bsu" height="242" width="500 class="bsu1 style="float:right;margin-right: 80px;">
+                
             </p>
             <h3> About IPCROPCR </h3>
 
