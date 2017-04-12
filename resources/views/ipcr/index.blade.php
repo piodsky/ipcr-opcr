@@ -41,7 +41,7 @@
                             </a>
                         </div>
                         <a href="/ipcr/{{$ipcr->id}}">
-                            <img alt="Responsive image" class="img-fluid" src="dist/img/file.jpg"/>
+                            <img alt="Responsive image" class="img-fluid" src="dist/img/doc2.png"/>
                         </a>
                         <div class="card-block">
                             <a class="card-link" href="{{route("ipcr.edit",$ipcr->id)}}">
