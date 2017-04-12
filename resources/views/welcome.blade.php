@@ -75,7 +75,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    IPCR OPCR
+                 <strong> IPCR OPCR </strong> 
                 </div>
                     <p><strong> An evaluation App for Bukidnon State University </strong> </p>
                 <div class="links">
