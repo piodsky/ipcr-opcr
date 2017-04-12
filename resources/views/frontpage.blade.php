@@ -7,7 +7,7 @@
     <div class="row">
         <div class="col-md-12 col-md-offset-0">
             <div class="panel panel-default">
-                <div class="panel-heading"><img src="dist/img/a.png" alt="bsu" height="150" width="1100 class="bsu1></div>
+                <div class="panel-heading"><img src="dist/img/logo11.png" alt="bsu" height="150" width="1100 class="bsu1></div>
 
                 <div class="panel-body">
 
