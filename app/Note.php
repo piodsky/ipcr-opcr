@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Note extends Model
 {
-    protected $fillable=['title','body','distribution','Q1','E2','T3','ipcr_id'];
+    protected $fillable=['ActualAccomplishments','Q1','E2','T3','A4','Ave','ipcr_id','Remarks'];
 
 
     public function ipcr()

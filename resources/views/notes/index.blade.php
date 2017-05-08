@@ -39,13 +39,10 @@
                                 {{$note->title}}
                             </h4>
                         </a>
-                        <table style="width: 90%;border-collapse: separate;border-spacing: 5px;">
+                        <table style="width: 100%;border-collapse: separate;border-spacing: 5px;">
                             <tr>
                                 <th>
-                                    Input
-                                </th>
-                                <th>
-                                    % Distribution
+                                    Actual Accomplishments
                                 </th>
                                 <th>
                                     Q1
@@ -57,6 +54,15 @@
                                     T3
                                 </th>
                                 <th>
+                                    A4
+                                </th>
+                                <th>
+                                    Ave
+                                </th>
+                                <th>
+                                    Remarks
+                                </th>
+                                <th>
                                     Edit
                                 </th>
                                 <th>
@@ -65,8 +71,7 @@
                                 
                             </tr>
                             <tr>
-                                <td>{{$note->body}}</td>
-                                <td>{{$note->distribution}}</td>
+                                <td>{{$note->ActualAccomplishments}}</td>
                                 <td>
                                     {{$note->Q1}}
                                 </td>
@@ -76,6 +81,11 @@
                                 <td>
                                     {{$note->T3}}
                                 </td>
+                                <td>
+                                    {{$note->A4}}
+                                </td>
+                                <td>{{$note->Ave}}</td>
+                                <td>{{$note->Remarks}}</td>
                                 <td>
                                      <a class="btn btn-sm btn-info pull-xs-left" href="{{route("notes.edit",$note->id)}}">
                                         Edit

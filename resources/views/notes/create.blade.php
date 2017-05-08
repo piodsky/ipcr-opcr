@@ -17,11 +17,11 @@
                   <th>Major Final Output</th>
                   <th>Success Indicator</th>
                   <th>Actual Accomplishments</th>
-                  <th>Distribution</th>
+                  <th style="width: 50px;">Distribution (%)</th>
                   <th>Rating (Q1)</th>
-                  <th>Rating (E3)</th>
+                  <th>Rating (E2)</th>
                   <th>Rating (T3)</th>
-                  <th>Rating (A4)</th>
+                  <th style="width: 60px;">Rating (A4)</th>
                   <th>Average Score</th>
                   <th>Remarks</th>
                 </tr>
@@ -40,17 +40,19 @@
               		<td style="width: 200px;"><div class="form-group">
                     <label for="ActualAccomplishments">
                     </label>
-                    <input class="form-control" type="text" name="ActualAccomplishments" placeholder="Actual Accomplishments">
+                    <input class="form-control" type="text" name="ActualAccomplishments" placeholder="Actual Accomplishments" id="ActualAccomplishments">
                   </div></td>
 
                   <td><div class="form-group">
-                    <p>8%</p>
+                    <label for="Distribution"></label>
+                    <input class="form-control" type="text" name="distribution" id="distro" value="8%" disabled="true"></input>
                   </div></td>
 
                   <td><div class="form-group">
                     <label for="Q1">
               			</label>
-              			<select class="form-control" name="Q1">
+              			<select class="form-control" name="Q1" id="Q1" onclick="calc();">
+                      <option value=""></option>
                       <option value="1">1</option> 
                       <option value="2">2</option>  
                       <option value="3">3</option>  
@@ -62,7 +64,7 @@
               		<td><div class="form-group">
               			<label for="E2">
               			</label>
-              			<select class="form-control" name="E2">
+              			<select class="form-control" name="E2" id="E2" onclick="calc();">
                       <option value="1">1</option> 
                       <option value="2">2</option>  
                       <option value="3">3</option>  
@@ -74,7 +76,7 @@
               		<td><div class="form-group">
               			<label for="T3">
               			</label>
-              			<select class="form-control" name="E2">
+              			<select class="form-control" name="T3" id="T3" onclick="calc();">
                       <option value="1">1</option> 
                       <option value="2">2</option>  
                       <option value="3">3</option>  
@@ -84,21 +86,27 @@
               		</div></td>
 
                   <td><div class="form-group">
-                    <label for="A$">
+                    <label for="A4">
                     </label>
-                    <input class="form-control" type="text" name="A4" placeholder="A4">
+                    <input class="form-control" type="text" name="A4" placeholder="A4" id="A4" disabled="true">
                   </div></td>
 
                   <td><div class="form-group">
                     <label for="Ave">
                     </label>
-                    <input class="form-control" type="text" name="Ave" placeholder="Average">
+                    <input class="form-control" type="text" name="Ave" placeholder="Average" id="Ave" disabled="true">
                   </div></td>
                 
                   <td><div class="form-group">
                     <label for="Remarks">
                     </label>
-                    <input class="form-control" type="text" name="Remarks" placeholder="Remarks">
+                    <input class="form-control" type="text" name="Remarks" id="Remarks" placeholder="Remarks">
+                  </div></td>
+
+                  <div class="form-group"><td>
+                    <input type="hidden" name="ipcr_id" value="{{$id}}">
+                    <input class="btn btn-primary" type="submit" value="Done">
+                  </input>
                   </div></td>
                 </tr>
 
@@ -1220,7 +1228,18 @@
     </div>
   </div>
 </div>
-                
+<script type="text/javascript">
+function calc(){
+  var Q1 = parseInt(document.getElementById('Q1').value);
+  var E2 = parseInt(document.getElementById('E2').value);
+  var T3 = parseInt(document.getElementById('T3').value);
+  var distro = parseInt(document.getElementById('distro').value);
+  var result = parseFloat(distro)/100;
+
+  var ratingAve = document.getElementById('A4').value = parseFloat(Math.round(Q1 + E2 + T3)/3).toFixed(2);
+  document.getElementById('Ave').value = parseFloat(ratingAve * result).toFixed(2);
+}
+</script>           
                 
 
 
